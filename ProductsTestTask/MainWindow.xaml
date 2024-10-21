@@ -1,0 +1,35 @@
+﻿<Window x:Class="ProductsTestTask.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProductsTestTask"
+        mc:Ignorable="d"
+        Title="Product Table" Height="644" Width="1230"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <DataGrid x:Name="DataTable" HorizontalAlignment="Center" Height="504" VerticalAlignment="Top" Width="1200" d:ItemsSource="{d:SampleData ItemCount=5}"
+                  ColumnWidth="100"
+                  IsReadOnly="True" SelectionMode="Single" 
+                  CanUserSortColumns="False" 
+                  CanUserReorderColumns="False" Margin="0,10,0,0"/>
+        <Button Content="add product" HorizontalAlignment="Left" Height="30" Margin="15,565,0,0" VerticalAlignment="Top" Width="100" Click="AddProductButtonClick"/>
+        <Button Content="delete product" HorizontalAlignment="Left" Height="29" Margin="235,566,0,0" VerticalAlignment="Top" Width="100" Click="DeleteProductButtonClick"/>
+        <Button Content="update product" HorizontalAlignment="Left" Height="29" Margin="125,566,0,0" VerticalAlignment="Top" Width="100" Click="UpdateProductButtonClick"/>
+
+        <Button Content="generate products" HorizontalAlignment="Left" Height="29" Margin="345,566,0,0" VerticalAlignment="Top" Width="120" Click="GenerateProductsButtonClick"/>
+        <Button Content="filter products" HorizontalAlignment="Left" Height="29" Margin="1077,566,0,0" VerticalAlignment="Top" Width="120" Click="FilterProductsButtonClick"/>
+
+        <TextBox HorizontalAlignment="Left" Margin="516,527,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="537" Height="29"
+                 TextAlignment="Center" FontSize="16"
+                 KeyDown="MyTextBox_KeyDown"
+                 Name="search_text"/>
+
+        <ComboBox HorizontalAlignment="Left" Margin="1078,529,0,0" VerticalAlignment="Top" Width="119" Height="26" 
+                  Name="search_box"/>
+
+        <Label Content="Rows count: " HorizontalAlignment="Left" Margin="15,519,0,0" VerticalAlignment="Top" Name="rows_count_label"/>
+
+    </Grid>
+</Window>

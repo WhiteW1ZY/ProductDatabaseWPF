@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kanas\\source\\repos\\ProductsTestTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6065E5-6157-4B6D-8C64-B6B0DD027D24}|ProductsTestTask\\ProductsTestTask.csproj|c:\\users\\kanas\\source\\repos\\productstesttask\\productstesttask\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6065E5-6157-4B6D-8C64-B6B0DD027D24}|ProductsTestTask\\ProductsTestTask.csproj|solutionrelative:productstesttask\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6065E5-6157-4B6D-8C64-B6B0DD027D24}|ProductsTestTask\\ProductsTestTask.csproj|c:\\users\\kanas\\source\\repos\\productstesttask\\productstesttask\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ED6065E5-6157-4B6D-8C64-B6B0DD027D24}|ProductsTestTask\\ProductsTestTask.csproj|solutionrelative:productstesttask\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6065E5-6157-4B6D-8C64-B6B0DD027D24}|ProductsTestTask\\ProductsTestTask.csproj|c:\\users\\kanas\\source\\repos\\productstesttask\\productstesttask\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6065E5-6157-4B6D-8C64-B6B0DD027D24}|ProductsTestTask\\ProductsTestTask.csproj|solutionrelative:productstesttask\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\kanas\\source\\repos\\ProductsTestTask\\ProductsTestTask\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "ProductsTestTask\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\kanas\\source\\repos\\ProductsTestTask\\ProductsTestTask\\Services\\ProductService.cs",
+              "RelativeToolTip": "ProductsTestTask\\Services\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:02:49.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kanas\\source\\repos\\ProductsTestTask\\ProductsTestTask\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ProductsTestTask\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\kanas\\source\\repos\\ProductsTestTask\\ProductsTestTask\\MainWindow.xaml",
+              "RelativeToolTip": "ProductsTestTask\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-21T12:54:16.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\kanas\\source\\repos\\ProductsTestTask\\ProductsTestTask\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProductsTestTask\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\kanas\\source\\repos\\ProductsTestTask\\ProductsTestTask\\Models\\Product.cs",
+              "RelativeToolTip": "ProductsTestTask\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T12:27:23.077Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

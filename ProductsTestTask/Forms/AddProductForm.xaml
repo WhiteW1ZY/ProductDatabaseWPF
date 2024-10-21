@@ -1,0 +1,38 @@
+﻿<Window x:Class="ProductsTestTask.Forms.AddProductForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProductsTestTask.Forms"
+        mc:Ignorable="d"
+        Title="Create Product" Height="361" Width="324"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        >
+    <Grid>
+        <Label Content="Code" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top"/>
+        <Label Content="BarCode" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top"/>
+        <Label Content="Quantity" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top"/>
+        <Label Content="Model" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top"/>
+        <Label Content="Sort" HorizontalAlignment="Left" Margin="10,140,0,0" VerticalAlignment="Top"/>
+        <Label Content="Color" HorizontalAlignment="Left" Margin="10,166,0,0" VerticalAlignment="Top"/>
+        <Label Content="Size" HorizontalAlignment="Left" Margin="10,192,0,0" VerticalAlignment="Top"/>
+        <Label Content="Width" HorizontalAlignment="Left" Margin="10,218,0,0" VerticalAlignment="Top"/>
+        <Label Content="Price" HorizontalAlignment="Left" Margin="10,244,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="code_box" PreviewTextInput="NumericTextBox_PreviewTextInput" HorizontalAlignment="Left" Height="20" Margin="105,15,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189"/>
+        <TextBox x:Name="name_box" HorizontalAlignment="Left" Height="20" Margin="105,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189"/>
+        <TextBox x:Name="barcode_box" HorizontalAlignment="Left" Height="20" Margin="105,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189"/>
+        <TextBox x:Name="quantity_box" PreviewTextInput="DecimalTextBox_PreviewTextInput"  HorizontalAlignment="Left" Height="20" Margin="105,93,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189"/>
+        <TextBox x:Name="model_box" HorizontalAlignment="Left" Height="20" Margin="105,119,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189"/>
+        <TextBox x:Name="sort_box" HorizontalAlignment="Left" Height="20" Margin="105,145,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189"/>
+        <TextBox x:Name="color_box" HorizontalAlignment="Left" Height="20" Margin="105,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189"/>
+        <TextBox x:Name="size_box" HorizontalAlignment="Left" Height="20" Margin="105,197,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189"/>
+        <TextBox x:Name="wigth_box" HorizontalAlignment="Left" Height="20" Margin="105,223,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189"/>
+        <TextBox x:Name="price_box" PreviewTextInput="DecimalTextBox_PreviewTextInput" HorizontalAlignment="Left" Height="20" Margin="105,249,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189"/>
+        <Button x:Name="backward_button" Content="Backward" HorizontalAlignment="Left" Height="23" Margin="10,289,0,0" VerticalAlignment="Top" Width="112" Click="backward_button_Click"/>
+        <Button x:Name="confirm_button" Content="Confirm" HorizontalAlignment="Left" Height="23" Margin="182,289,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click"/>
+
+    </Grid>
+</Window>
